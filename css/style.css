@@ -8,16 +8,18 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background: #FFF;
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
-    color: var(--iris, #4D5AE5);
-    text-decoration: none;
+    color: #4D5AE5;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
@@ -26,32 +28,21 @@ header {
 }
 
 .studio {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
 }
 
 .menu {
-    color: var(--navyblue, #2e2f42);
-    text-decoration: none;
+    color: #2e2f42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
 }
 
-.menu:active {
+.menu:active, .menu:hover, .menu:focus  {
     color: #404BBF;
 
-}
-
-.menu:hover {
-    color: #404bbf;
-
-}
-
-.menu:focus {
-    color: #404bbf;
 }
 
 .contacts {
@@ -59,30 +50,23 @@ header {
 }
 
 .contacts-link {
-    text-decoration: none;
-    color: var(--slate, #434455);
+    color: #434455;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
 }
 
-.contacts-link:hover {
-    color: #404bbf;
-}
-
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
     color: #404bbf;
 }
 
 .hero {
-    background-color: var(--navyblue, #2e2f42);
+    background-color:#2e2f42;
 }
 
 .main-title {
-    color: var(--white, #ffffff);
+    color: #ffffff;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -91,11 +75,10 @@ header {
 }
 
 .button {
-    background-color: var(--iris, #4D5AE5);
-    color: var(--white, #ffffff);
+    background-color:#4D5AE5;
+    color: #ffffff;
     cursor: pointer;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
@@ -104,21 +87,17 @@ header {
 
 }
 
-.button:hover {
+.button:hover, .button:focus {
     background-color: #404BBF;
 
-}
-
-.button:focus {
-    background-color: #404BBF;
 }
 
 .description {
-    background-color: var(--white, #FFF);
+    background-color:#FFF;
 }
 
 .description-title {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -127,19 +106,18 @@ header {
 }
 
 .descr-info {
-    color: var(--slate, #434455);
+    color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .team {
-    background-color: var(--cloud, #F4F4FD);
+    background-color: #F4F4FD;
 }
 
 .team-title {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -153,7 +131,7 @@ header {
 }
 
 .team-subtitle {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -162,10 +140,9 @@ header {
 }
 
 .team-jobtitle {
-    color: var(--slate, #434455);
+    color: #434455;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -175,7 +152,7 @@ header {
 }
 
 .portfolio-title {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -185,7 +162,7 @@ header {
 }
 
 .portfolio-subtitle {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -193,26 +170,24 @@ header {
 }
 
 .portfolio-info {
-    color: var(--slate, #434455);
+    color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .bottom-page {
-    background-color: var(--navyblue, #2E2F42);
+    background-color: #2E2F42;
 }
 
 .bottom-page .studio {
-    color: var(--cloud, #f4f4fd);
+    color: #f4f4fd;
     line-height: 1.17;
 }
 
 .bottom-page-text {
-    color: var(--cloud, #F4F4FD);
+    color: #F4F4FD;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
